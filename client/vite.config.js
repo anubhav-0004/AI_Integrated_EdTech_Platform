@@ -14,7 +14,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://ai-integrated-edtech-platform.onrender.com/', // Update with your backend server URL
         changeOrigin: true,
         secure: false,
       },

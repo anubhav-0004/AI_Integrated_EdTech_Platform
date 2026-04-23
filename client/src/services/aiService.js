@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'https://ai-integrated-edtech-platform.onrender.com/', // Update with your backend URL
   headers: {
     'Content-Type': 'application/json',
   },
